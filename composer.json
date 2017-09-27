@@ -1,5 +1,5 @@
 {
-  "name": "ludovicm67/string",
+  "name": "ludovicm67/strings",
   "description": "Some useful functions for working with strings",
   "type": "library",
   "require": {
@@ -14,7 +14,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "ludovicm67\\String\\": "src/"
+      "ludovicm67\\Strings\\": "src/"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.3",
+    "satooshi/php-coveralls": "dev-master"
   }
 }

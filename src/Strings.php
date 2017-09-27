@@ -1,8 +1,8 @@
 <?php
 
-namespace ludovicm67\String;
+namespace ludovicm67\Strings;
 
-class String {
+class Strings {
 
   // Clean a string
   static function clean($string) {
