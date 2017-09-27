@@ -1,0 +1,20 @@
+{
+  "name": "ludovicm67/string",
+  "description": "Some useful functions for working with strings",
+  "type": "library",
+  "require": {
+    "php": "^7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ludovicm67",
+      "email": "ludovicmuller1@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ludovicm67\\String\\": "src/"
+    }
+  },
+}
