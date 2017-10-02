@@ -13,3 +13,63 @@ Strings
 
 Just run the following command: `composer require ludovicm67/strings`
 to add it to your PHP project!
+
+## Getting started
+
+If you installed using composer, you can now create a file with the following code:
+
+```php
+<?php
+
+// import here the composer autoloader
+require('./vendor/autoload.php');
+
+// use the namespace for this library
+use ludovicm67\Strings\Strings;
+
+
+```
+
+### clean strings
+
+You can clean strings using the static method: `Strings::clean("My string")`.
+
+Example:
+
+```php
+
+echo Strings::clean("test& ""~ "@éa/-âå€ÊÂøÊ±æ€ûýþ<b>bold</b>");
+// will display: test&amp; &quot;&quot;~ &quot;@éa/-âå€ÊÂøÊ±æ€ûýþ&lt;b&gt;bold&lt;/b&gt;
+
+```
+
+### get a string from camelCase
+
+Using `Strings::fromCamelCase("myString")` (*will return: `my-string`*).
+
+Example:
+
+```php
+
+echo Strings::fromCamelCase('testFromCamelCase');
+// will display: test-from-camel-case
+
+```
+
+### transform a string to camelCase
+
+Using `Strings::toCamelCase("my-string")` (*will return: `myString`*).
+
+Example:
+
+```php
+
+echo Strings::toCamelCase('test-to-camel-case');
+// will display: testToCamelCase
+
+```
+
+## Want to contribute?
+
+Just fork, commit and open a pull-request. Or just open an issue here:
+https://github.com/ludovicm67/php-strings/issues .
