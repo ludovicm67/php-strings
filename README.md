@@ -43,7 +43,7 @@ echo Strings::clean("test& ""~ "@éa/-âå€ÊÂøÊ±æ€ûýþ<b>bold</b>");
 
 ```
 
-### get a string from camelCase
+### get a string from camelCase
 
 Using `Strings::fromCamelCase("myString")` (*will return: `my-string`*).
 
@@ -56,7 +56,7 @@ echo Strings::fromCamelCase('testFromCamelCase');
 
 ```
 
-### transform a string to camelCase
+### transform a string to camelCase
 
 Using `Strings::toCamelCase("my-string")` (*will return: `myString`*).
 
