@@ -1,5 +1,4 @@
-Strings
-=======
+# Strings
 
 > Some useful functions for working with strings
 
@@ -26,8 +25,6 @@ require('./vendor/autoload.php');
 
 // use the namespace for this library
 use ludovicm67\Strings\Strings;
-
-
 ```
 
 ### clean strings
@@ -37,36 +34,30 @@ You can clean strings using the static method: `Strings::clean("My string")`.
 Example:
 
 ```php
-
 echo Strings::clean("test& ""~ "@éa/-âå€ÊÂøÊ±æ€ûýþ<b>bold</b>");
 // will display: test&amp; &quot;&quot;~ &quot;@éa/-âå€ÊÂøÊ±æ€ûýþ&lt;b&gt;bold&lt;/b&gt;
-
 ```
 
 ### get a string from camelCase
 
-Using `Strings::fromCamelCase("myString")` (*will return: `my-string`*).
+Using `Strings::fromCamelCase("myString")` (_will return: `my-string`_).
 
 Example:
 
 ```php
-
 echo Strings::fromCamelCase('testFromCamelCase');
 // will display: test-from-camel-case
-
 ```
 
 ### transform a string to camelCase
 
-Using `Strings::toCamelCase("my-string")` (*will return: `myString`*).
+Using `Strings::toCamelCase("my-string")` (_will return: `myString`_).
 
 Example:
 
 ```php
-
 echo Strings::toCamelCase('test-to-camel-case');
 // will display: testToCamelCase
-
 ```
 
 ## Want to contribute?
