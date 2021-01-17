@@ -1,11 +1,11 @@
-name: Run tests for PHP 7.3
+name: PHP 7.3 - Tests
 
 on:
   - push
   - pull_request
 
 jobs:
-  test:
+  tests:
     runs-on: ubuntu-latest
 
     steps:

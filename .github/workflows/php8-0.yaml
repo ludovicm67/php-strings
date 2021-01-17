@@ -1,11 +1,11 @@
-name: Run tests for PHP 8.0
+name: PHP 8.0 - Tests
 
 on:
   - push
   - pull_request
 
 jobs:
-  test:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
