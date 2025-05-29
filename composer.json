@@ -6,7 +6,8 @@
   "authors": [
     {
       "name": "ludovicm67",
-      "email": "ludovicmuller1@gmail.com"
+      "email": "ludovicmuller1@gmail.com",
+      "homepage": "https://ludovic-muller.fr/"
     }
   ],
   "autoload": {
