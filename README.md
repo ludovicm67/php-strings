@@ -4,7 +4,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/ludovicm67/strings/v/stable)](https://packagist.org/packages/ludovicm67/strings)
 [![Total Downloads](https://poser.pugx.org/ludovicm67/strings/downloads)](https://packagist.org/packages/ludovicm67/strings)
-[![Coverage Status](https://coveralls.io/repos/github/ludovicm67/php-strings/badge.svg?branch=master)](https://coveralls.io/github/ludovicm67/php-strings?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/ludovicm67/php-strings/badge.svg?branch=main)](https://coveralls.io/github/ludovicm67/php-strings?branch=main)
 
 ## Installation
 
